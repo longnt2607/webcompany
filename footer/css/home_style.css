@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+li {
+	list-style-type: none;
+}
+a{
+	color: #5E5E5E;
+}
+a:hover{
+	text-decoration: none;
+	color: #00cac5;
+	transition: 0.5s;
+}
+.text-grey{
+	color: #a9a7b1;
+}
+.more-green{
+	color: #00cac5;
+	font-weight: bold;
+}
+.services, .card{
+	background-color: #362f4f;
+	color: white;
+}
+.card{
+	border: 2px solid #453d61;
+}
+.card-link{
+	font-weight: bold;
+	color: white;
+	border-bottom: 2px solid #453d61;
+}
+.work{
+	background-color: #29243d;
+}
+.btn{
+	background-color: #00cac5;
+	border-radius: 5px;
+}
+.dove{
+	background: url(../images/dove-med.jpg) fixed;
+	background-size: cover;
+}
+@media only screen and (min-width:540px){
+	.global{
+		width: 100%;
+	}
+}
+@media only screen and (min-width:720px){
+	.global{
+		width: 30%;
+	}
+}

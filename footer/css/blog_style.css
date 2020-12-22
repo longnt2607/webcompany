@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+li {
+	list-style-type: none;
+}
+a{
+	color: #5E5E5E;
+}
+a:hover{
+	text-decoration: none;
+	color: #00cac5;
+	transition: 0.5s;
+}
+input{
+	border: none;
+}
+.blog-menu a{
+	color: white;
+}
+.input-border{
+	border-bottom: 1px solid #A9A7B1;
+}
+.form-search input, button{
+	border: none;
+	background-color: transparent;
+}
+.text-grey{
+	color: #a9a7b1;
+}
+.more-green{
+	color: #00cac5;
+	font-weight: bold;
+}
+.newsletter{
+	width: 60%;
+}
+.btn{
+	background-color: #00cac5;
+	border-radius: 5px;
+}
