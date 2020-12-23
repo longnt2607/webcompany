@@ -8,11 +8,12 @@ li{
 	list-style-type: none;
 }
 .card{
-	width: 35vh;
-	border-radius: 1em;
+	width: 30vh;
+	/*border-radius: 1.8em;*/
+	border: none;
 }
 .card img{
-	border-radius: 1em;
+	border-radius: 2.5em;
 }
 .active{
 	border-bottom: 2px solid #d40000;
@@ -41,6 +42,10 @@ li{
 	margin: 0 5px;
 	background-color: #d40000;
 }
+/*Core values and facts---------------------------------------------------------*/
+.facts{
+	background: url("../image/image 17.png") fixed no-repeat center;
+}
 .facts-item{
 	width: 30vh;
 	height: 30vh;
@@ -67,18 +72,32 @@ li{
 }
 .facts-item-content{
 	width: 20vh;
-	height: 20vh;
-	overflow: hidden;
+	height: 15vh;
+	/*overflow: scroll;*/
+	overflow-y: scroll;
 	position: absolute;
 	z-index: 1;
 	transform: rotate(-45deg);
+	box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.facts-item-content::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.facts-item-content {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.facts-item-content small{
+	/*font-size: 0.2em;*/
 }
 .facts-item-content-hidden{
 	display: none;
 }
-.facts-item:hover .facts-item-content{
+/*.facts-item:hover .facts-item-content{
 	display: none;
 }
 .facts-item:hover .facts-item-content-hidden{
 	display: flex;
-}
+}*/
